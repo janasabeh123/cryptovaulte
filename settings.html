@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CryptoVault Settings</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="dashboard">
+
+        <!-- Sidebar -->
+        <aside class="sidebar">
+
+            <h2 class="logo">CV <span>CryptoVault</span></h2>
+
+            <p class="menu-title">MAIN MENU</p>
+
+            <nav>
+                <a href="index.html" class="nav-link">
+                    ◈ Dashboard
+                </a>
+
+                <a href="#" class="nav-link">
+                    ↗ Markets
+                </a>
+
+                <a href="#" class="nav-link">
+                    ▣ Wallet
+                </a>
+            </nav>
+
+            <p class="menu-title">ACCOUNT</p>
+
+            <nav>
+                <a href="settings.html" class="nav-link active">
+                    ⚙ Settings
+                </a>
+            </nav>
+
+            <div class="sidebar-bottom">
+                <p>● Light Mode</p>
+                <a href="#">↪ Logout</a>
+            </div>
+
+        </aside>
+
+
+        <!-- Main Content -->
+        <main class="main-content">
+
+            <!-- Navbar -->
+            <header class="topbar">
+
+                <input type="search" placeholder="Search...">
+
+                <div class="user-info">
+
+                    <span class="notification">♧</span>
+
+                    <div class="avatar">js</div>
+
+                    <div>
+                        <h4>jana ahmed mohamed sabeh</h4>
+                        <p>Pro Trader</p>
+                    </div>
+
+                </div>
+
+            </header>
+
+
+            <!-- Welcome -->
+            <section class="welcome">
+
+                <h1>Settings</h1>
+
+                <p>Manage your account preferences and security.</p>
+
+            </section>
+
+
+            <!-- Settings Tabs -->
+            <section class="settings-tabs">
+
+                <a href="#">Profile</a>
+                <a href="#">Security</a>
+                <a href="#">Notifications</a>
+                <a href="#" class="selected-tab">Preferences</a>
+                <a href="#">Connected</a>
+
+            </section>
+
+
+            <!-- Settings Box -->
+            <section class="settings-box">
+
+                <div class="settings-heading">
+
+                    <h2>Display Preferences</h2>
+
+                    <p>Customize how the app looks and behaves.</p>
+
+                </div>
+
+
+                <!-- Settings Form -->
+                <div class="settings-grid">
+
+                    <div class="setting-field">
+
+                        <label for="currency">Currency</label>
+
+                        <select id="currency">
+                            <option>USD - US Dollar</option>
+                            <option>EUR - Euro</option>
+                            <option>GBP - British Pound</option>
+                            <option>EGP - Egyptian Pound</option>
+                        </select>
+
+                    </div>
+
+
+                    <div class="setting-field">
+
+                        <label for="language">Language</label>
+
+                        <select id="language">
+                            <option>English</option>
+                            <option>Arabic</option>
+                            <option>French</option>
+                        </select>
+
+                    </div>
+
+
+                    <div class="setting-field">
+
+                        <label for="timezone">Timezone</label>
+
+                        <select id="timezone">
+                            <option>Eastern Time (ET)</option>
+                            <option>London (GMT)</option>
+                            <option>Cairo (EET)</option>
+                        </select>
+
+                    </div>
+
+
+                    <div class="setting-field">
+
+                        <label for="date">Date Format</label>
+
+                        <select id="date">
+                            <option>MM/DD/YYYY</option>
+                            <option>DD/MM/YYYY</option>
+                            <option>YYYY/MM/DD</option>
+                        </select>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Toggle Controls -->
+                <div class="toggle-section">
+
+                    <div>
+                        <h3>Compact View</h3>
+                        <p>Show more data with smaller elements.</p>
+                    </div>
+
+                    <label class="switch">
+                        <input type="checkbox">
+                        <span class="slider"></span>
+                    </label>
+
+                </div>
+
+
+                <!-- Buttons -->
+                <div class="settings-buttons">
+
+                    <button type="button" class="save-button">
+                        Save Preferences
+                    </button>
+
+                    <button type="reset" class="reset-button">
+                        Reset to Default
+                    </button>
+
+                </div>
+
+            </section>
+
+        </main>
+
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CryptoVault Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="dashboard">
+
+        <!-- Sidebar -->
+        <aside class="sidebar">
+
+            <h2 class="logo">CV <span>CryptoVault</span></h2>
+
+            <p class="menu-title">MAIN MENU</p>
+
+            <nav>
+                <a href="index.html" class="nav-link active">
+                    ◈ Dashboard
+                </a>
+
+                <a href="#" class="nav-link">
+                    ↗ Markets
+                </a>
+
+                <a href="#" class="nav-link">
+                    ▣ Wallet
+                </a>
+            </nav>
+
+            <p class="menu-title">ACCOUNT</p>
+
+            <nav>
+                <a href="settings.html" class="nav-link">
+                    ⚙ Settings
+                </a>
+            </nav>
+
+            <div class="sidebar-bottom">
+                <p>● Light Mode</p>
+                <a href="#">↪ Logout</a>
+            </div>
+
+        </aside>
+
+
+        <!-- Main Content -->
+        <main class="main-content">
+
+            <!-- Top Navbar -->
+            <header class="topbar">
+
+                <input type="search" placeholder="Search...">
+
+                <div class="user-info">
+                    <span class="notification">♧</span>
+
+                    <div class="avatar">js</div>
+
+                    <div>
+                        <h4>jana ahmed mohamed sabeh</h4>
+                        <p>Pro Trader</p>
+                    </div>
+                </div>
+
+            </header>
+
+
+            <!-- Welcome -->
+            <section class="welcome">
+
+                <h1>Dashboard</h1>
+
+                <p>Welcome back! Here's your portfolio overview.</p>
+
+            </section>
+
+
+            <!-- Dashboard Grid -->
+            <section class="dashboard-grid">
+
+                <!-- Portfolio Overview -->
+                <div class="card portfolio-card">
+
+                    <div class="card-heading">
+                        <h3>Portfolio Overview</h3>
+                        <span class="tag">1D</span>
+                    </div>
+
+                    <div class="chart">
+                        <div class="chart-line"></div>
+                    </div>
+
+                    <div class="chart-labels">
+                        <span>Mon</span>
+                        <span>Tue</span>
+                        <span>Wed</span>
+                        <span>Thu</span>
+                        <span>Fri</span>
+                        <span>Sat</span>
+                    </div>
+
+                </div>
+
+
+                <!-- Asset Performance -->
+                <div class="card performance-card">
+
+                    <div class="card-heading">
+                        <h3>Asset Performance</h3>
+                        <span class="tag">Week</span>
+                    </div>
+
+                    <div class="bars">
+
+                        <div class="bar" style="height:55%"></div>
+                        <div class="bar violet" style="height:40%"></div>
+                        <div class="bar" style="height:75%"></div>
+                        <div class="bar violet" style="height:48%"></div>
+                        <div class="bar" style="height:65%"></div>
+                        <div class="bar violet" style="height:35%"></div>
+                        <div class="bar" style="height:80%"></div>
+                        <div class="bar violet" style="height:50%"></div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Statistics -->
+                <div class="statistics">
+
+                    <div class="stat-card petrol-card">
+                        <p>Total Balance</p>
+                        <h2>$84,254.32</h2>
+                        <span>+12.5% this month</span>
+                    </div>
+
+                    <div class="stat-card violet-card">
+                        <p>Total Profit</p>
+                        <h2>$12,847.00</h2>
+                        <span>+8.2% this week</span>
+                    </div>
+
+                    <div class="stat-card">
+                        <p>Pending Orders</p>
+                        <h2>7</h2>
+                        <span>3 Buy, 4 Sell</span>
+                    </div>
+
+                    <div class="stat-card">
+                        <p>Active Assets</p>
+                        <h2>12</h2>
+                        <span>Across 5 wallets</span>
+                    </div>
+
+                </div>
+
+
+                <!-- Bitcoin -->
+                <div class="card crypto-card">
+
+                    <div class="crypto-heading">
+                        <h3>BTC/USD</h3>
+                        <strong>$43,256.00</strong>
+                    </div>
+
+                    <span class="positive">+5.4%</span>
+
+                    <div class="mini-chart">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+
+                </div>
+
+
+                <!-- Ethereum -->
+                <div class="card crypto-card">
+
+                    <div class="crypto-heading">
+                        <h3>ETH/USD</h3>
+                        <strong>$2,284.50</strong>
+                    </div>
+
+                    <span class="positive">+3.2%</span>
+
+                    <div class="mini-chart second-chart">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+
+                </div>
+
+
+                <!-- Additional Cards -->
+                <div class="card additional-card">
+
+                    <h3>Asset Allocation</h3>
+
+                    <div class="allocation-circle">
+                        <span>65%</span>
+                    </div>
+
+                    <p>Portfolio Distribution</p>
+
+                </div>
+
+
+                <div class="card additional-card">
+
+                    <h3>Portfolio Health</h3>
+
+                    <h2 class="health-number">92%</h2>
+
+                    <p>Excellent Performance</p>
+
+                    <div class="progress">
+                        <div class="progress-fill"></div>
+                    </div>
+
+                </div>
+
+
+                <div class="card additional-card">
+
+                    <h3>Risk Level</h3>
+
+                    <h2 class="risk-number">Low</h2>
+
+                    <p>Your portfolio risk is stable.</p>
+
+                    <div class="progress">
+                        <div class="risk-fill"></div>
+                    </div>
+
+                </div>
+
+            </section>
+
+        </main>
+
+    </div>
+
+</body>
+</html>
